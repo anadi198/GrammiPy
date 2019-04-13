@@ -1,1 +1,1 @@
-# Grammipy
+# GrammiPy
