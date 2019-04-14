@@ -24,7 +24,7 @@ def setDefaultKey(key):
     global _key
     _key = key
     
-def checkDocument(text, key=None):
+def checkGrammar(text, key=None):
     """Invoke checkDocument service with provided text and optional key.
     If no key is provided, a default key is used.
 
@@ -43,7 +43,7 @@ def checkDocument(text, key=None):
         'data': text,
     })
     service = http.client.HTTPConnection("service.afterthedeadline.com")
-    service.request("POST", "/checkDocument", params)
+    service.request("POST", "/checkGrammar", params)
     response = service.getresponse()
     if response.status != http.client.OK:
         service.close()
