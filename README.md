@@ -1,6 +1,7 @@
 # GrammiPy
 
 
-ATD: Created by Miguel Ventura
-Modified for Python3 by Russell Horton
-License: MIT
+# ATD:</br> 
+Created by Miguel Ventura </br>
+Modified for Python3 by Russell Horton</br>
+License: MIT</br>
