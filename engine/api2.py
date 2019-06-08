@@ -1,6 +1,4 @@
-import requests, json 
-import urllib.request, urllib.parse, urllib.error
-from xml.etree import ElementTree
+import requests, json
 
 url = 'https://languagetool.org/api/v2/check'
 
@@ -12,7 +10,7 @@ def checkGrammar(text):
     header = {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Accept': 'application/json',
-        'User-Agent':'python-ATD',
+        'User-Agent':'python',
     }
     r = requests.post(url, data=data, headers=header)
     response = r.json()
