@@ -4,6 +4,6 @@ A python script that tries to find any grammatical mistake(s) in a sentence you 
 
 Libraries used:  
   *[gTTS](https://pypi.org/project/gTTS/)  
-*[SpeechRecognition](https://pypi.org/project/SpeechRecognition/)   
-*[LanguageTool](https://languagetool.org/)   
-*[requests](https://pypi.org/project/requests/)  
+  *[SpeechRecognition](https://pypi.org/project/SpeechRecognition/)   
+  *[LanguageTool](https://languagetool.org/)   
+  *[requests](https://pypi.org/project/requests/)  
