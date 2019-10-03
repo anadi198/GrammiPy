@@ -1,6 +1,6 @@
 import requests, json
 
-url = 'https://languagetool.org/api/v2/check'
+url = 'https://languagetool.org/api/v2/check' #API endpoint for grammar check
 
 def checkGrammar(text):
     data = {
