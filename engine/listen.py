@@ -8,7 +8,7 @@ r = sr.Recognizer()
 
 with sr.Microphone(sample_rate = sample_rate, chunk_size = chunk_size) as source:
     r.adjust_for_ambient_noise(source)
-    print("Say something")
+    print("Say something now!")
     audio = r.listen(source)
     try:
         text = r.recognize_google(audio)
